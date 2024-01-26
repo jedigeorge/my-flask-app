@@ -8,11 +8,11 @@ on:
 # the list of jobs in this workflow
 jobs:
 
-# define a job
+  # define a job
   build: 
     name: Build and Push Container Image # the job's full name
     runs-on: ubuntu-latest # the OS that this job runs on
-		
+
 # we need write permissions to publish the package
   permissions: 
     packages: write
